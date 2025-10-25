@@ -44,8 +44,8 @@ h1::after{
     content: "";
     position: absolute;
     bottom: 0;
-    height: 3px;
-    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1);
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
@@ -239,4 +239,5 @@ button:active{
     .option label{
         font-size: 0.9rem;
     }
+
 }
